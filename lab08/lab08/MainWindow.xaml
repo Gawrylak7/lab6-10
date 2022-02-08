@@ -1,0 +1,21 @@
+﻿<Window x:Class="lab08.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="384" Width="712">
+    <Grid Margin="0,10,49,34">
+        <Label Content="podaj a" HorizontalAlignment="Left" Margin="75,25,0,0" VerticalAlignment="Top"/>
+        <Label Content="podaj b" HorizontalAlignment="Left" Margin="75,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="box1" HorizontalAlignment="Left" Margin="156,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="box2" HorizontalAlignment="Left" Margin="156,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="suma" HorizontalAlignment="Left" Margin="93,138,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="roznica" HorizontalAlignment="Left" Margin="142,138,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="iloczyn" HorizontalAlignment="Left" Margin="196,138,0,0" VerticalAlignment="Top" Click="Button_Click_2" RenderTransformOrigin="-5.498,3.626"/>
+        <Button Content="iloraz" HorizontalAlignment="Left" Margin="251,138,0,0" VerticalAlignment="Top" Width="42" Click="Button_Click_3"/>
+        <TextBox x:Name="wynik" HorizontalAlignment="Left" Margin="93,216,0,0" TextWrapping="Wrap" Text="wynik" VerticalAlignment="Top" Width="373" Height="39"/>
+
+    </Grid>
+    
+</Window>
